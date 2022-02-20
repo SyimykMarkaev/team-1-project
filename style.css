@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
 }
-body p {
-    background-color: #ccc;
-    color: whitesmoke;
+.background {
+    background-image: url();
 }
