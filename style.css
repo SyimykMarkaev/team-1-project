@@ -6,3 +6,15 @@
 .background {
     background-image: url();
 }
+
+.left::before  {
+    content: "\e011";
+}
+
+.icon-layers:before {
+    content: "\e034";
+}
+
+.right::before {
+    content: "\e080";
+}
