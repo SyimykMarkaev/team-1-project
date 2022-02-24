@@ -139,6 +139,38 @@ input {
 }
 
 /* space for section-4*/
+.section-4{
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #f8f9fa!important;
+    margin-bottom: 6rem;
+}
+.cards {
+    margin-bottom: 100px;
+} 
+.centerh1{
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+}
+.cards .card1, .card2, .card3 p{
+    margin-bottom: 25px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly ;
+    text-align: center;
+}
+.cards img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%!important;
+}
+.text-center h2{
+    margin-bottom: 1.25rem;
+}
+
 
 .section-5 h1 {
     font-size: 35px;
@@ -166,4 +198,11 @@ input {
     .article-1, .article-2, .article-3 {
         padding: 10%;
     }
+    .cards {
+        flex-direction: column;
+    }
+    .cards .card1, .card2, .card3 p{
+        margin-bottom: 25px;
+    }
+     
 }
