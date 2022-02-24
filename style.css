@@ -90,24 +90,14 @@ input {
     "img-2 article-2"
     "article-3 img-3";
     grid-template-rows: 500px 500px 500px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: auto;
     padding: auto;
 }
 .section-3 p {
-    font-family: 'Akaya Telivigala', cursive;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Festive', cursive;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-family: 'Handlee', cursive;
-    font-family: 'Heebo', sans-serif;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Redressed', cursive;
+    font-family: 'Redressed' cursive;
+    font-weight: 100;
     font-size: 27px;
 }
 .section-3 .img-1 {
@@ -135,7 +125,7 @@ input {
     grid-area: img-3;
 }
 .section-3 .pad {
-    padding: 10%;
+    padding: 20% 15%;
 }
 
 /* space for section-4*/
