@@ -183,7 +183,21 @@ input {
     height: 400px;
 }
 
-
+footer {
+    padding: 15px;
+    display: grid;
+    
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li {
+    list-style-type: none;
+}
+footer ul {
+    display: flex;
+    /* justify-content: space-around; */
+    width: 600px;
+}
 
 @media(max-width: 900px){
     .section-3{
