@@ -197,21 +197,45 @@ input {
     height: 400px;
 }
 
+
+
 footer {
     padding: 15px;
-    display: grid;
-    
+    align-items: center;
+    margin: 30px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 footer ul li {
     list-style-type: none;
+    
+
 }
 footer ul {
     display: flex;
     /* justify-content: space-around; */
-    width: 600px;
+    flex:1;
+    
 }
+
+footer ul a{
+    text-decoration: none;
+    margin-right: 20px;
+    align-items: center;
+    font-size: 15px;
+    /* margin-top: 15px; */
+} 
+footer p{
+    margin-left: 30px;
+    align-items: center;
+    font-size: 12px;
+}
+div .fab{
+    /* padding-top: 25px; */
+    flex:1;
+}
+
+
 
 @media(max-width: 900px){
     .section-3{
