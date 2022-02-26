@@ -71,18 +71,31 @@ input {
     opacity: 0.8;
 }
 
+.section-2{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    margin: 80px;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+   line-height: 1.5;
+   font-size: 19px;
+    }
+  
+   .section-2 img{
+       width: 70px;
+        }
 
-.left::before  {
-    content: "\e011";
-}
+   .section-2 .left, .middle, .right{
+       margin: 5px 40px;
+       width: 280px;
+       
+   } 
 
-.icon-layers:before {
-    content: "\e034";
-}
 
-.right::before {
-    content: "\e080";
-}
+
+
 .section-3 {
     display: grid;
     grid-template-areas: 
